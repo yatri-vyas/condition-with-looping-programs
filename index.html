@@ -1,0 +1,23 @@
+<script>
+
+    let salary = 25000;
+    let bonus = null;
+    let experiance = 2;
+
+    if (salary >= 25000 && experiance >= 5) {
+        bonus = salary * 0.5;
+    } else if (salary >= 20000 && experiance >= 3) {
+        bonus = salary * 0.3;
+    }
+    else if (salary >= 15000 && experiance >= 2) {
+        bonus = salary * 0.2;
+    }
+    else {
+        bonus = salary * 0;
+    }
+
+    let netsalary = salary + bonus ;
+    document.write(netsalary);
+
+
+</script>

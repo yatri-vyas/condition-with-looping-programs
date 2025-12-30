@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Marksheet</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="marksheet">
+
+    <!-- Header (No Images) -->
+    <div class="header">
+        <h1>ABC COLLEGE OF SCIENCE</h1>
+        <p>Affiliated to XYZ University</p>
+        <h3>Semester Examination Result</h3>
+    </div>
+
+    <hr>
+
+    <!-- Student Info -->
+    <div class="student-info">
+        <div><span>Name:</span> Vyas Yatri</div>
+        <div><span>Roll No:</span> 23CS045</div>
+        <div><span>Enrollment No:</span> ENR2023CS045</div>
+        <div><span>Course:</span> B.Sc Computer Science</div>
+        <div><span>Semester:</span> 4th</div>
+        <div><span>Academic Year:</span> 2024–25</div>
+    </div>
+
+    <table>
+    <thead>
+        <tr>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+            <th>Max Marks</th>
+            <th>Obtained Marks</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>CS401</td>
+            <td>Data Structures</td>
+            <td>100</td>
+            <td><span id="ds"></span></td>
+        </tr>
+        <tr>
+            <td>CS402</td>
+            <td>DBMS</td>
+            <td>100</td>
+            <td id="dbms"></td>
+        </tr>
+        <tr>
+            <td>CS403</td>
+            <td>Operating System</td>
+            <td>100</td>
+            <td id="os"></td>
+        </tr>
+        <tr>
+            <td>CS404</td>
+            <td>Java Programming</td>
+            <td>100</td>
+            <td id="jp"></td>
+        </tr>
+    </tbody>
+</table>
+
+    <div class="summary">
+        <div class="card">
+            <h4>Total Marks</h4>
+            <p><span id="total"></span> / 400</p>
+        </div>
+        <div class="card">
+            <h4>Percentage</h4>
+            <p><span id="percentage"></span>%</p>
+        </div>
+        <div class="card">
+            <h4>Overall Grade</h4>
+            <p id="grade"></p>
+        </div>
+        <div class="card result pass">
+            <h4>Final Result</h4>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div>Date: 12-May-2025</div>
+        <div class="signature">
+            <p>Controller of Examination</p>
+            <span>Authorized Signature</span>
+        </div>
+    </div>
+
+</div>
+
+ <script src="./javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<script>
+
+let price = 1000;
+let discount = null;
+
+if(price >= 1500)
+{
+    discount = price * 0.15 ;
+}else if(price >= 1000)
+{
+    discount = price * 0.1 ;
+}else{
+    discount = price * 0.05;
+}
+
+let finalprice = price - discount ;
+console.log(finalprice);
+console.log(discount);
+
+
+
+
+</script>
